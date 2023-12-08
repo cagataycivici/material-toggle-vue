@@ -1,10 +1,18 @@
 # PrimeVue InputSwitch as a Material Toggle
 
-Material design for InputSwitch Component
+Material Design for InputSwitch Component
+
+## Accent
+
+The `accent` prop is not available PrimeVue so this presets extends it using a pass through attribute instead.
+
+```html
+<InputSwitch inputId="primary" v-model="val2" type="accent" />
+```
 
 ## tailwind.config.js
 
-Add semantic colors to be able to customize the colors of the Accordion
+Add semantic colors to be able to customize the colors of the InputSwitch.
 
 ```js
 export default {
@@ -12,18 +20,6 @@ export default {
     theme: {
         extend: {
             colors: {
-                "primary-50": "rgb(var(--primary-50))",
-                "primary-100": "rgb(var(--primary-100))",
-                "primary-200": "rgb(var(--primary-200))",
-                "primary-300": "rgb(var(--primary-300))",
-                "primary-400": "rgb(var(--primary-400))",
-                "primary-500": "rgb(var(--primary-500))",
-                "primary-600": "rgb(var(--primary-600))",
-                "primary-700": "rgb(var(--primary-700))",
-                "primary-800": "rgb(var(--primary-800))",
-                "primary-900": "rgb(var(--primary-900))",
-                "primary-950": "rgb(var(--primary-950))",
-
                 "surface-0": "rgb(var(--surface-0))",
                 "surface-50": "rgb(var(--surface-50))",
                 "surface-100": "rgb(var(--surface-100))",
