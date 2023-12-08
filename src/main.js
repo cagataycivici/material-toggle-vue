@@ -3,7 +3,7 @@ import "./style.css";
 import "primeicons/primeicons.css";
 import App from "./App.vue";
 import PrimeVue from "primevue/config";
-import InputSwitch from "primevue/InputSwitch";
+import InputSwitch from "primevue/inputswitch";
 import StyleClass from "primevue/styleclass";
 import MyPreset from "./mypreset";
 
