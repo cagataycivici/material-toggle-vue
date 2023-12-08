@@ -13,8 +13,8 @@
                 <label for="primary" class="text-surface-700 dark:text-surface-300">Primary</label>
             </div>
             <div class="flex items-center gap-3">
-                <InputSwitch inputId="primary" v-model="val2" type="accent" />
-                <label for="primary" class="text-surface-700 dark:text-surface-300">Accent</label>
+                <InputSwitch inputId="accent" v-model="val2" type="accent" />
+                <label for="accent" class="text-surface-700 dark:text-surface-300">Accent</label>
             </div>
             <div class="flex items-center gap-3">
                 <InputSwitch inputId="disabled" v-model="val3" disabled />
