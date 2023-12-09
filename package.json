@@ -1,6 +1,5 @@
 {
-  "name": "slim-toggle",
-  "private": true,
+  "name": "material-toggle-vue",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
